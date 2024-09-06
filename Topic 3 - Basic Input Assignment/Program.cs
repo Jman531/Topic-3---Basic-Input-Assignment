@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            string name;
+            int age, currentYear;
+
+            Console.Write("Hey, whats your name? ");
+            name = Console.ReadLine();
+
+            Console.WriteLine();
         }
     }
 }
